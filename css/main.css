@@ -1,0 +1,189 @@
+
+body {
+  /*background: rgb(30,30,30);*/
+}
+
+.navbar-nav {
+  margin:0 auto;
+}
+
+/*.navbar-nav a{
+  color: white !important;
+}*/
+
+.nav-item {
+  padding: 5px 40px 5px 10px;
+}
+
+#about, #music  {
+  padding: 40px 55px 40px 25px;
+  color: rgba(0,0,0,0.8);
+  /*color: white;*/
+}
+
+/*{
+  padding: 40px 55px 40px 25px;
+}*/
+
+
+.carousel{
+  margin: auto;
+  width: 80%;
+  max-width: 700px;
+  padding-bottom: 100px;
+}
+
+footer {
+  text-align: center;
+  background: rgb(206, 238, 170);
+  padding: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.placements img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*---- Contact Form ---*/
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.container-contact {
+  width: 20%;
+  min-width: 500px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  /*border: 1px solid;*/
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 30px 55px 50px 55px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.wrap-input {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  color: black;
+  line-height: 1.2;
+}
+
+.focus-input {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+
+/*---------------------------------------------*/
+input.input {
+  height: 45px;
+}
+
+textarea.input {
+  min-height: 115px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.wrap-contact-form-btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.contact-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: rgba(219,21,99,1);
+  background: -webkit-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -o-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: -moz-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  background: linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+  top: 0;
+  left: -100%;
+}
+
+.contact-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 244px;
+  height: 50px;
+
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+
